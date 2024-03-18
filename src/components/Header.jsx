@@ -11,7 +11,7 @@ const Header = () => {
 
 <Grid container spacing={2} sx={{paddingTop:"20vh"}}>
       <Grid item xs={6} >
-        <Typography  align="center"sx={{fontWeight:"bold" ,color:"#fff" ,fontSize:{xs:"5vh",sm:"5vh",md:"3vh",lg:"",xl:"5vh"},paddingTop:"20vh",paddingLeft:"10vh"} }>
+        <Typography  align="center"sx={{fontWeight:"bold" ,color:"#fff" ,fontSize:{xs:"5vh",sm:"5vh",md:"5vh",lg:"5vh",xl:"5vh"},paddingTop:"20vh",paddingLeft:"10vh"} }>
         web developer portfolio
         </Typography>
         <Typography variant="subtitle1" align="center"
