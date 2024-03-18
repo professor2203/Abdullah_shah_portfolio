@@ -32,7 +32,7 @@ Build a site with Next js, or node js. Customize, consider hiring. Make it appea
 </Typography>
       </Grid>
       <Grid item xs={6}>
-        <Box sx={{display:"flex",shapeOutside:"border-box",justifyContent:"end",paddingLeft:"10vh"}}>
+        <Box sx={{display:"flex",shapeOutside:"border-box",justifyContent:"end",paddingLeft:"30vh"}}>
          <img src="Abdullah.jpg" alt="" height='600vh' width="500vh" style={{borderRadius:"10%"}}/>
         </Box>
       </Grid>
