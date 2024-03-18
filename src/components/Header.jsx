@@ -15,7 +15,7 @@ const Header = () => {
         web developer portfolio
         </Typography>
         <Typography variant="subtitle1" align="center"
-       sx={{fontWeight:200 ,color:"#E95A0C" ,fontSize:{xs:"5vh",sm:"5vh",md:"3vh",lg:"",xl:"5vh"}} }
+       sx={{fontWeight:200 ,color:"#E95A0C" ,fontSize:{xs:"5vh",sm:"5vh",md:"5vh",lg:"5vh",xl:"5vh"}} }
         >
           <Typewriter
             paddingLeft="vh"
@@ -32,7 +32,7 @@ Build a site with Next js, or node js. Customize, consider hiring. Make it appea
 </Typography>
       </Grid>
       <Grid item xs={6}>
-        <Box sx={{display:"flex",shapeOutside:"border-box",justifyContent:"end"}}>
+        <Box sx={{display:"flex",shapeOutside:"border-box",justifyContent:"end",paddingLeft:"10vh"}}>
          <img src="Abdullah.jpg" alt="" height='600vh' width="500vh" style={{borderRadius:"10%"}}/>
         </Box>
       </Grid>
