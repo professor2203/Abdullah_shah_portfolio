@@ -5,7 +5,7 @@ import Container from './Container';
 const cards = [
   { id: 1, title: '360 xpertsolutions', url: 'https://360xpertsolutions.com/', imageUrl: 'Screenshot from 2024-03-17 15-48-45.png' },
   { id: 2, title: 'Level Five', url: 'https://level5-rho.vercel.app/', imageUrl: 'Screenshot from 2024-03-17 15-52-51.png' },
-  { id: 3, title: 'Mefic', url: 'https://www.example.com/card3', imageUrl: ' Screenshot from 2024-03-17 15-47-01.png' },
+  { id: 3, title: 'Mefic', url: 'https://mefic.vercel.app/', imageUrl: ' Screenshot from 2024-03-17 15-47-01.png' },
   { id: 3, title: 'Hassana', url: 'https://www.example.com/card3', imageUrl: 'Screenshot from 2024-03-17 15-54-02.png' },
 
 ];
