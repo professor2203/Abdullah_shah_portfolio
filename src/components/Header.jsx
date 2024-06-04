@@ -7,7 +7,7 @@ import Container from './Container';
 const Header = () => {
   return (
   <Container>
-  <div style={{backgroundColor:"#1E2538"}}>
+  <Grid style={{backgroundColor:"#1E2538"}}>
 
 <Grid container spacing={2} sx={{paddingTop:"20vh"}}>
       <Grid item xs={6} >
@@ -27,21 +27,20 @@ options={{
             }}
           />
         </Typography>
-<Typography sx={{color:"#fff",textAlign:"left",paddingLeft:"19vh",fontSize:"2.5vh"}}>
+<Typography sx={{color:"#fff",textAlign:"left",paddingLeft:"15vh",fontSize:"2.5vh",paddingtop:'200vh'}}>
 Build a site with Next js, or node js. Customize, consider hiring. Make it appealing, user-friendly, informative. Start now!
 </Typography>
       </Grid>
       <Grid item xs={6}>
         <Box sx={{display:"flex",shapeOutside:"border-box",justifyContent:"end",paddingLeft:"30vh"}}>
-         <img src="Abdullah.jpg" alt="" height='600vh' width="500vh" style={{borderRadius:"10%"}}/>
+         <img src="Abdullah.jpg" alt="" height='550vh' width="500vh" style={{borderRadius:"10%"}}/>
         </Box>
       </Grid>
       
       
     </Grid>
-    </div>
-    <br />
-    <br />
+    </Grid>
+    
 
     </Container>
   );
